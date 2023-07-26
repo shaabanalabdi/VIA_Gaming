@@ -1,0 +1,16 @@
+/* header */
+
+.header{
+    background: url(../img/header.png) no-repeat;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    padding: 200px;
+    background-attachment: fixed;
+}
+ul img {
+    position:absolute;
+    left: 50px;
+}
+
