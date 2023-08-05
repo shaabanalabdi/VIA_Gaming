@@ -1,26 +1,29 @@
-/* navbar */
-
- nav{
+/* navbar = menu  */
+nav{
     background-color: rgb(0, 0, 0);  
-    width: 1080px;
-    height: 150px;
-    flex-shrink: 0;
-
   }
   
   ul {
-      margin: 15px;;
-      padding: 15px;
+      margin: 0;
+      padding: 0;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
+      list-style: none;
   }
   
   ul li a {
+      text-decoration: none;
       display: block;
-      padding: 50px;
+      padding: 65px;
+      margin: 10px;
       color: rgb(255, 255, 255);
       text-transform: uppercase;
+      position: center;
+  
   }
-  ul img{
-    position: absolute;
+  ul image{
+    display: block;
+    padding: 0px;
+    position: right;
   }
+
