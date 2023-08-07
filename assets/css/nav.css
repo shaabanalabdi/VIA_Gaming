@@ -1,6 +1,9 @@
 /* navbar = menu  */
 nav{
     background-color: rgb(0, 0, 0);  
+    display: grid;
+    grid: auto auto auto auto;
+    grid-gap: 10px;
   }
   
   ul {
@@ -9,6 +12,7 @@ nav{
       display: flex;
       justify-content: center;
       list-style: none;
+
   }
   
   ul li a {
@@ -18,12 +22,10 @@ nav{
       margin: 10px;
       color: rgb(255, 255, 255);
       text-transform: uppercase;
-      position: center;
-  
+      font-size: 26px;
   }
-  ul image{
-    display: block;
-    padding: 0px;
-    position: right;
+  ul img{
+     justify-content: right;
+     display: block;
   }
 
