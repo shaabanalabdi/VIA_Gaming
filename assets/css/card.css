@@ -1,0 +1,18 @@
+
+/*card menu*/
+.global{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    justify-content: space-around;
+    box-shadow: 0 8px 12px 0;
+    width: 30%;
+    margin: 40px;
+}
+
+.container{
+    padding: 20px;
+    text-align:center;
+}
