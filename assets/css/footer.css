@@ -10,3 +10,7 @@
     margin: 0 auto;
     text-transform: uppercase
 }
+
+.footer_content ul li a {
+    padding: 5px 0px;
+}
