@@ -16,9 +16,28 @@
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     background-color: rgb(255, 255, 255);
-    padding: 160px ;
+    padding: 100px 0px 0px 0px;
     font-family: 'Bungee Inline', cursive;
   }
+
+  .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 50px 2px;
+    border-radius: 2rem;
+    font-family: 'Bungee Inline', cursive;
+  }
+
+  .button:hover {
+    background-color: rgb(58, 58, 58);
+  }
+
   .text h3 {
     font-size: 32px;
     text-align: center;
@@ -36,4 +55,3 @@
     text-align: center;
     font-family: 'Inter', sans-serif;
   }
-  
