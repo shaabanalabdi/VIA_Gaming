@@ -4,9 +4,10 @@
 
 .global{
     display: flex;
-    justify-content: space-aroud;
     flex-wrap: wrap;
     padding: 60px;
+    justify-content: center;
+    
 }
 
 .card {
